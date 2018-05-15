@@ -1,0 +1,44 @@
+[
+  {
+    "id": 0,
+    "name": "GDesign",
+    "picture": "images/rsz_design-pictures.jpg",
+    "category": "Design Tools",
+    "description": "A simple design tool."
+  },
+  {
+    "id": 1,
+    "name": "Pacman",
+    "picture": "images/rsz_pac-man-simple-games.jpg",
+    "category": "Games",
+    "description": "Pacman arcade games."
+  },
+  {
+    "id": 2,
+    "name": "Book for Tactics",
+    "picture": "images/rsz_default_9862.png",
+    "category": "EBook",
+    "description": "Learn about tactical soulutions in workplace."
+  },
+  {
+    "id": 3,
+    "name": "Monster Hunter",
+    "picture": "images/rsz_monster-hunter.jpg",
+    "category": "Action Games",
+    "description": "Hunt mosters in the action game."
+  },
+  {
+    "id": 4,
+    "name": "Sunset",
+    "picture": "images/rsz_12610.jpg",
+    "category": "Wallpaper",
+    "description": "A beautiful wallpaper"
+  },
+  {
+    "id": 5,
+    "name": "Paradise of Ninjas",
+    "picture": "images/rsz_default_9862.png",
+    "category": "EBook",
+    "description": "A fantasy book."
+  }  
+]
