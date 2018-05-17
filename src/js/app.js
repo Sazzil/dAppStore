@@ -36,7 +36,6 @@ App = {
 
   initContract: function() {
     $.getJSON('Purchase.json', function(data) {
-      // Get the necessary contract artifact file and instantiate it with truffle-contract
       var PurchaseArtifact = data;
       App.contracts.Purchase = TruffleContract(PurchaseArtifact);
     
@@ -87,8 +86,6 @@ App = {
 
       App.contracts.Purchase.deployed().then(function(instance) {
         purchaseInstance = instance;
-
-        // Execute purchasing as a transaction by sending account
         return purchaseInstance.buy(appId, {from: account});
       }).then(function(result) {
         return App.markPurchased();
